@@ -80,7 +80,7 @@
             <button class="btn btn-danger btn-sm" data-toggle="modal" data-target="#layer" v-on:click="nowIndex=-2">删除全部</button>
           </td>
         </tr>
-        <tr v-sow="myData.length==0">
+        <tr v-show="myData.length==0">
           <td colspan="4" class="text-center text-muted">
             <p>暂无数据...</p>
           </td>
